@@ -1,19 +1,53 @@
-# Calorie Burn Prediction
+# 🔥 Calorie Burn Prediction using Machine Learning
 
-Predicts calories burned during exercise using machine learning regression models.
+This project predicts the number of calories burned during exercise using regression-based machine learning models trained on physiological data.
 
-## Tech Stack
-Python, Scikit-learn, Pandas, NumPy, Jupyter Notebook
+---
 
-## Models Used
+## 📌 Problem Statement
+Estimating calorie burn accurately is important for fitness tracking and health monitoring. This project builds a predictive model using user attributes such as age, weight, heart rate, and exercise duration.
+
+---
+
+## ⚙️ Tech Stack
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- Jupyter Notebook
+
+---
+
+## 📊 Dataset Features
+- Age
+- Gender
+- Height
+- Weight
+- Duration of exercise
+- Heart Rate
+- Body Temperature
+
+---
+
+## 🧠 Models Used
 - Linear Regression
 - Random Forest Regressor
 
-## What I Did
-- Cleaned and preprocessed exercise + calorie dataset
-- Engineered features: age, weight, duration, heart rate, body temp
-- Compared models using RMSE and R² score
-- Random Forest outperformed Linear Regression on both metrics
+---
 
-## Dataset
-Exercise and calorie data with physiological attributes.
+## 🚀 Approach
+- Data Cleaning and Preprocessing
+- Feature Engineering on physiological parameters
+- Model Training and Evaluation
+- Performance Comparison using RMSE and R² Score
+
+---
+
+## 📈 Results
+- Random Forest achieved better performance than Linear Regression
+- Lower RMSE and higher R² score indicating improved prediction accuracy
+- Demonstrates effectiveness of ensemble methods for regression problems
+
+---
+
+## 📂 Project Structure
