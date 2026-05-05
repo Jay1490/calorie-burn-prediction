@@ -51,3 +51,7 @@ Estimating calorie burn accurately is important for fitness tracking and health 
 ---
 
 ## 📂 Project Structure
+calorie-burn-prediction/
+  │── calories.csv
+  │── calories_burnent_prediction.ipynb
+  │── README.md
