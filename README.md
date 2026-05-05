@@ -59,11 +59,12 @@ This project builds a machine learning model using user attributes such as age, 
 
 ## 📂 Project Structure
 
+```
 calorie-burn-prediction/
 │── calories.csv
 │── calories_burnent_prediction.ipynb
 │── README.md
-
+```
 ---
 
 ## ▶️ How to Run
