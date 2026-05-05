@@ -1,13 +1,13 @@
-# 🔥 Calorie Burn Prediction using Machine Learning
+   # 🔥 Calorie Burn Prediction using Machine Learning
 
-This project predicts the number of calories burned during exercise using regression-based machine learning models trained on physiological data.
+This project predicts the number of calories burned during exercise using regression-based machine learning models trained on physiological and activity-related data.
 
 ---
 
 ## 📌 Problem Statement
 
-Accurately estimating calorie burn is important for fitness tracking and health monitoring.
-This project builds a machine learning model using user attributes such as age, weight, heart rate, and exercise duration.
+Accurately estimating calorie burn is essential for fitness tracking and health monitoring.
+This project builds a predictive model using user attributes such as age, weight, heart rate, and exercise duration to estimate calories burned.
 
 ---
 
@@ -51,20 +51,22 @@ This project builds a machine learning model using user attributes such as age, 
 
 ## 📈 Results
 
-* Random Forest performed better than Linear Regression
+* Random Forest outperformed Linear Regression
 * Achieved lower RMSE and higher R² score
-* Demonstrates effectiveness of ensemble models in regression tasks
+* Demonstrates effectiveness of ensemble models in regression problems
 
 ---
 
 ## 📂 Project Structure
 
-```
+```id="h4h8dy"
 calorie-burn-prediction/
 │── calories.csv
-│── calories_burnent_prediction.ipynb
+│── calorie_burn_prediction.ipynb
+│── calorie_burn_prediction.py
 │── README.md
 ```
+
 ---
 
 ## ▶️ How to Run
@@ -72,18 +74,21 @@ calorie-burn-prediction/
 1. Clone the repository
    git clone https://github.com/Jay1490/calorie-burn-prediction.git
 
-2. Open Jupyter Notebook
+2. Install dependencies
+   pip install pandas numpy scikit-learn
+
+3. Open Jupyter Notebook
    jupyter notebook
 
-3. Run the notebook file
+4. Run the notebook
 
 ---
 
 ## 🎯 Key Learnings
 
-* Understanding regression models
+* Understanding regression models and their applications
 * Importance of feature engineering
-* Model evaluation using RMSE and R²
+* Model evaluation using RMSE and R² metrics
 * End-to-end machine learning workflow
 
 ---
